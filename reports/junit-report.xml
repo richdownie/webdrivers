@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="google-search-testing;google-search-for-voter-cards-app" tests="2" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/rich/code/webdrivers/features/google-search.feature">
+            </property>
+        </properties>
+        <testcase name="When I search Google for &quot;itunes vote cards app&quot;" classname="google-search-testing;google-search-for-voter-cards-app" time="5.138158103">
+        </testcase>
+        <testcase name="Then I should see &quot;Scrum Poker&quot; in the result" classname="google-search-testing;google-search-for-voter-cards-app" time="0.08837837">
+        </testcase>
+    </testsuite>
+</testsuites>

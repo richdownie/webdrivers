@@ -1,4 +1,9 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-# Specify your gem's dependencies in webdrivers.gemspec
-gemspec
+gem 'selenium-webdriver'
+gem 'cucumber'
+gem 'rspec'
+gem 'page-object'
+gem 'pry'
+gem 'webdrivers'
+gem 'thor'
