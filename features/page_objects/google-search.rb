@@ -1,7 +1,12 @@
+
+
+
+
 class GoogleSearch
   include PageObject
-
-  def search_input
-    @browser.first(name: 'q')
+  text_field(:name, name: 'q')
+  def perform_search(value)
+    self.name = (value)
+    @browser.action.send_keys(:enter).perform
   end
 end

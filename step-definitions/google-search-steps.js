@@ -1,4 +1,7 @@
 const expect = require('chai').expect;
+
+
+
 module.exports = function () {
     this.When(/^I search Google for "([^"]*)"$/, (text) =>{
         return helpers.loadPage('https://google.com')
@@ -8,11 +11,7 @@ module.exports = function () {
     })
     this.Then(/^I should see "([^"]*)" in the result$/, function (keywords) {
         return driver.wait(until.elementsLocated(by.partialLinkText(keywords)), 10000);
-    });
-    this.When(/^I enter "([^"]*)" in input$/, function(expression){
-        console.log("expression is ",expression);
-        return helpers.loadPage('https://google.com').then(e => {
-            return page.googleSearch.performSearch(expression)
-        })
     })
 };
+
+

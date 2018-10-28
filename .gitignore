@@ -1,3 +1,4 @@
+reports/*
 *.gem
 .bundle
 Gemfile.lock

@@ -4,5 +4,5 @@ Feature: Google Search Testing
   and check its search functionality
 
   Scenario: Google search for voter cards app
-    When I search Google for "itunes vote cards app"
-    Then I should see "Scrum Poker" in the result
+    When I search Google for "CukeHub"
+    Then I should see "CukeHub – Medium" in the result
